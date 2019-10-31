@@ -1,0 +1,3 @@
+a = input("ENTER THE WORD: ")
+for b in a:
+    print(b*2, end="")
