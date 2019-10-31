@@ -1,0 +1,26 @@
+a = float(input("FIRST NUMBER: "))
+operation1 = input("OPERATION1: ")
+b = float(input("SECOND NUMBER: "))
+operation2 = input("OPERATION2: ")
+c = float(input("THIRD NUMBER: "))
+result = None
+if operation1 == '+':
+    result = a + b
+elif operation1 == '-':
+    result = a - b
+elif operation1 == '*':
+    result = a * b
+elif operation1 == '/':
+    result = a / b
+if operation2 == '+':
+    result = result + c
+elif operation2 == '-':
+    result = result - c
+elif operation2 == '*':
+    result = result * c
+elif operation2 == '/':
+    result = result / c
+else:
+    print('UNSUPPORTED OPERATION')
+if result is not None:
+    print('RESULT:', result)
