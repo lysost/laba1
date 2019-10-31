@@ -1,0 +1,2 @@
+i = input("ENTER WORD: ")
+print(i[::-1])
